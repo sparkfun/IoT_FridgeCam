@@ -11,8 +11,8 @@ from email.Utils import COMMASPACE, formatdate
 from email import Encoders
 import os
 
-USERNAME = "000drycreek@gmail.com"
-PASSWORD = "IHeartJeeping69"
+USERNAME = ""
+PASSWORD = ""
 
 port = serial.Serial("/dev/ttyAMA0", baudrate=115200, timeout=3.0)
 
